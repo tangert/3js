@@ -4,7 +4,7 @@ let cubes = [];
 let spacing = 100;
 let nums;
 function setup() {
-  nums = createVector(10, 10);
+  nums = createVector(20, 20);
   colorMode(HSB, nums.x * nums.y, 1, 1);
   createCanvas(500, 400, WEBGL);
   cam = createEasyCam();
